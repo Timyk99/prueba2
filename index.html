@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Banrural</title>
+    <style>
+        body {
+            background-color: #4CAF50; /* Verde */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .moving-text {
+            font-size: 3em;
+            color: white;
+            animation: moveText 5s infinite alternate;
+        }
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-text">Segunda prueba Banrural</div>
+</body>
+</html>
